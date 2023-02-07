@@ -103,8 +103,6 @@ button {
 }
 
 
-
-}
 .black {
     background-color:#23272a;
     color: white;
@@ -173,4 +171,30 @@ section {
     color: white;
     border-radius: 15px;
 background-color:#8ea1e1;
+}
+footer{
+    margin-top:600px;
+    line-height: 2rem;
+    padding: 50px 0 50px 0;
+    height: 600px;
+    background-color:#23272a;
+}
+h3{
+    color: #6e84d4;}
+h4{
+color: white;
+}
+.top{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+.item{
+flex-grow: 2;
+}
+.talk{
+    flex-grow: 4;
+}
+dl{
+    color: white;
 }
