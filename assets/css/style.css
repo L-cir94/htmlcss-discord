@@ -19,6 +19,8 @@ header {
 .d-flex {
     display: flex;
     align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
     /* "flex-direction:row-reverse;" fai un'altra classe dopo container con dentro questo per invertire i contenitori */
 }
 
