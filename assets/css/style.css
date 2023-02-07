@@ -24,6 +24,7 @@ header {
     flex-direction: row-reverse;
     display: flex;
 }
+
 .logo,
 .login {
     display: flex;
@@ -70,16 +71,41 @@ header {
     justify-content: center;
     align-items: center;
     padding: 20px;
-
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     height: 400px;
 }
 
 .jumbotext {
     display: flex;
+    text-align: center;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
     width: 70%;
+}
+
+.bottoni {
+
+    padding: 20px;
+
+}
+
+h2,
+p {
+    color: white;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+.black {
+    background-color: black;
+    color: white;
 }
 
 .reliable {
