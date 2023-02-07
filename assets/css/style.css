@@ -39,15 +39,19 @@ header {
     display: flex;
     flex-grow: 4;
     background-color: #3161e0;
+    justify-content: space-between;
 }
 
 .logo,
 .login,
 .text {
     margin: 25px 0 25px 0;
-    justify-content: space-between;
-}
 
+}
+.login{
+    display: flex;
+    justify-content: flex-end;
+}
 .debug .jumbotron {
     background-color: brown;
     height: 150px;
@@ -97,9 +101,8 @@ button {
     border: none;
     border-radius: 15px;
 }
-.login-button{
 
-    margin-left: 50px;
+
 
 }
 .black {
