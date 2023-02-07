@@ -17,12 +17,14 @@ header {
 
 .d-flex {
     display: flex;
+    align-items: center;
     /* "flex-direction:row-reverse;" fai un'altra classe dopo container con dentro questo per invertire i contenitori */
 }
 
 .s {
     flex-direction: row-reverse;
     display: flex;
+    align-items: center;
 }
 
 .logo,
@@ -92,11 +94,6 @@ header {
 
 }
 
-h2,
-p {
-    color: white;
-}
-
 button {
     padding: 10px;
     border: none;
@@ -132,20 +129,24 @@ section {
 
 #meeting {
     background-color: beige;
+    height: auto;
 }
 
+#safe-talk {
+    height: auto;
+}
+#fandom{
+        height: auto;
+}
 .section-image {
     justify-content: center;
     align-items: center;
     width: 70%;
-    border: dashed;
-    height: 100px;
+
 }
 
 .section-text {
-    justify-content: center;
-    align-items: center;
+
     width: 29%;
-    border: dashed;
-    height: 100px;
+    text-emphasis-color: black;
 }
