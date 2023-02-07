@@ -97,9 +97,13 @@ button {
     border: none;
     border-radius: 15px;
 }
+.login-button{
 
+    margin-left: 50px;
+
+}
 .black {
-    background-color: black;
+    background-color:#23272a;
     color: white;
 }
 
@@ -165,5 +169,5 @@ section {
     border: none;
     color: white;
     border-radius: 15px;
-background-color: rgb(137, 143, 255);
+background-color:#8ea1e1;
 }
