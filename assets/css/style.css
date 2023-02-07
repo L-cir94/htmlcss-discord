@@ -198,3 +198,15 @@ flex-grow: 2;
 dl{
     color: white;
 }
+.bottom{
+margin-top: 20px;
+}
+.footer-logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.viola{
+    color: white;
+    background-color:#8ea1e1 ;
+}
