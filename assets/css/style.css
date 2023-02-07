@@ -89,9 +89,7 @@ header {
 }
 
 .bottoni {
-
     padding: 20px;
-
 }
 
 button {
@@ -107,18 +105,21 @@ button {
 
 .reliable {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    background-color: beige;
 }
 
 .reliabletext {
+text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
     width: 85%;
-    border: dashed;
     height: 100px;
 }
 
@@ -149,4 +150,20 @@ section {
 
     width: 29%;
     text-emphasis-color: black;
+}
+.adventure{
+    text-align: center;
+    width: 40%;
+    height: 20px;
+    background-image: url(/assets/img/stars.svg);
+    background-size: contain;
+
+}
+.violet{
+    margin-top: 50px;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 15px;
+background-color: rgb(137, 143, 255);
 }
