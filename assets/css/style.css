@@ -12,6 +12,7 @@
 
 header {
     background-color: #3161e0;
+    color: white;
 
 }
 
@@ -89,7 +90,8 @@ header {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    width: 70%;
+    width: 50%;
+    color: white;
 }
 
 .bottoni {
